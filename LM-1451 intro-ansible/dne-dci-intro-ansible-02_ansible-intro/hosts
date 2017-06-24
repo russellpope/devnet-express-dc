@@ -1,0 +1,8 @@
+[dcloud-servers] #This is a group definition
+198.18.134.49    # This is a host belonging to the dcloud-servers group
+198.18.134.50    # This is a host belonging to the dcloud-servers group
+
+[nxos-switches]  #This is a group definition
+198.18.134.140   # This is a host belonging to the nxos-switches group
+198.18.134.141   # This is a host belonging to the nxos-switches group
+```
