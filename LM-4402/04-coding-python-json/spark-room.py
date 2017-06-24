@@ -18,4 +18,4 @@ def getRooms(theHeader):
 
 header=setHeaders()
 value=getRooms(header)
-print (json.dumps(value, indent=4, separators=(',', ': ')))
+print(json.dumps(value, indent=4, separators=(',', ': ')))

@@ -27,6 +27,7 @@ ticket = {
 
 network = {"Network": {"router": {"ipaddress": "192.168.1.21", "mac_address": "08:56:27:6f:2b:9c"}}}
 
+
 hosts = {"response": [
     {"id": "4c60d6a7-4812-40d6-a337-773af2625e56", "hostIp": "65.1.1.86", "hostMac": "00:24:d7:43:59:d8",
      "hostType": "wireless"},

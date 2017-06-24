@@ -112,3 +112,46 @@ sample_json_with_array = [{"first_name" : "Mike","last_name" : "Maas"},
                           {"first_name" : "Brett","last_name" : "Tiller"}]
 
 # provided a more complex data structure to describe a donut to showcase the sorts of embedded stuff you can do
+
+
+##
+##
+# REST APIs
+##
+##
+
+
+# two major types of web services: REST or SOAP
+#
+# Commonly used in industry
+# R in rest is Representational not resourcing
+# Representation State Transfer
+# Give me a look at a thing
+# Here's what the thing should look like now!
+# Typically over HTTP
+
+# Several REST methods;
+# GET - go get some information
+# POST - Create a new thing with this information
+# PUT - Update an existing thing with this information
+# DELETE - Delete/destroy the thing
+
+# These typically go to different URLs
+
+# Lots of ways to authenticate; varies from API to API
+# Basic HTTP - Username/Password
+
+# Different status codes
+# 200 "Everything is fine! Here's your data"
+# 201 "I got the thing you asked me to do okay!"
+# 4XX "You screwed up!"
+# 5XX "I screwed up!"
+
+# Headers; important to define ESPECIALLY WHEN POSTing or PUTing
+# Body; used in POST/PUT for updates
+
+# Using Spark API as starting point
+# talking about OAUTH token; Spark makes it easy to retrieve
+
+# Request/response; i.e. Get rooms and it responds with a list of rooms
+# Example shows a GET to a regular URL
